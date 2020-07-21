@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-07-21T07:48:51.649Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="JslPSoGkOGmpMuAO56GV" version="13.0.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-21T07:49:41.104Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="mwqcybBq0Ct4fXZGxwvp" version="13.0.9" type="github">
   <diagram id="A91LpBzX5Wgsc4IaKshx" name="Page-1">
     <mxGraphModel dx="925" dy="512" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -62,50 +62,53 @@
         <mxCell id="TyoJxL2L62WcN0cPFRU_-38" value="大数据hera 调度完成，任务名称：search_brand_top3_cate_month_p_day" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="280" y="440" width="410" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="TyoJxL2L62WcN0cPFRU_-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="TyoJxL2L62WcN0cPFRU_-39" edge="1">
+        <mxCell id="TyoJxL2L62WcN0cPFRU_-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="230" y="615" as="targetPoint" />
+            <mxPoint x="230" y="671" as="targetPoint" />
+            <mxPoint x="90" y="671" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TyoJxL2L62WcN0cPFRU_-39" value="非品牌词的" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-          <mxGeometry x="10" y="605" width="80" height="20" as="geometry" />
+          <mxGeometry x="10" y="659" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="TyoJxL2L62WcN0cPFRU_-14" value="&amp;nbsp;.3.&amp;nbsp; 历史搜索词的 （数量&amp;nbsp; 300k 左右）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="232" y="172" width="220" height="20" as="geometry" />
         </mxCell>
         <mxCell id="TyoJxL2L62WcN0cPFRU_-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="300" y="684" as="sourcePoint" />
-            <mxPoint x="300" y="764" as="targetPoint" />
+            <mxPoint x="300" y="740" as="sourcePoint" />
+            <mxPoint x="300" y="820" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="300" y="750" />
-              <mxPoint x="300" y="750" />
+              <mxPoint x="300" y="806" />
+              <mxPoint x="300" y="806" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="TyoJxL2L62WcN0cPFRU_-43" value="过去15天内&lt;br&gt;复杂筛选项pv &amp;gt;1&lt;br&gt;搜索词&lt;br&gt;的&lt;br&gt;品牌 及 复杂筛选属性对&amp;nbsp;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="240" y="560" width="120" height="120" as="geometry" />
+          <mxGeometry x="240" y="616" width="120" height="120" as="geometry" />
         </mxCell>
         <mxCell id="TyoJxL2L62WcN0cPFRU_-46" value="&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 19px&quot;&gt;secoo_app.app_search_keyword_filter_for_suggest_p_day_incr&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-          <mxGeometry x="70" y="520" width="460" height="20" as="geometry" />
+          <mxGeometry x="70" y="576" width="460" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="TyoJxL2L62WcN0cPFRU_-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="TyoJxL2L62WcN0cPFRU_-52" target="TyoJxL2L62WcN0cPFRU_-53" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="TyoJxL2L62WcN0cPFRU_-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="TyoJxL2L62WcN0cPFRU_-52" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="295" y="976" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="TyoJxL2L62WcN0cPFRU_-52" value="&lt;span&gt;品牌，直接获取&lt;/span&gt;&lt;br&gt;&lt;span&gt;复杂筛选项词，过滤无结果&lt;/span&gt;&lt;br&gt;&lt;span&gt;简单过滤属性值&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="200" y="770" width="190" height="70" as="geometry" />
+          <mxGeometry x="200" y="826" width="190" height="70" as="geometry" />
         </mxCell>
         <mxCell id="TyoJxL2L62WcN0cPFRU_-53" value="${search_word}:search_other_filters----&amp;gt;&amp;nbsp; &amp;nbsp;brand_name1,brand_name2,brand_name3,filter1,filter2,filter3" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;" parent="1" vertex="1">
-          <mxGeometry x="5" y="920" width="580" height="55" as="geometry" />
+          <mxGeometry x="5" y="974" width="580" height="55" as="geometry" />
         </mxCell>
         <mxCell id="TyoJxL2L62WcN0cPFRU_-54" value="redis" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-          <mxGeometry x="275" y="920" width="40" height="20" as="geometry" />
+          <mxGeometry x="275" y="976" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="TyoJxL2L62WcN0cPFRU_-60" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;direction=west;" parent="1" vertex="1">
-          <mxGeometry x="608" y="770" width="20" height="190" as="geometry" />
+          <mxGeometry x="608" y="826" width="20" height="190" as="geometry" />
         </mxCell>
         <mxCell id="TyoJxL2L62WcN0cPFRU_-61" value="client1 定时任务&lt;br&gt;/data/hdfs/suggest_tag/start.sh" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-          <mxGeometry x="620" y="850" width="180" height="30" as="geometry" />
+          <mxGeometry x="620" y="904" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="iZUuwFrf2KAGskIMmz3N-3" value="历史搜索词聚合" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="30" y="1210" width="100" height="20" as="geometry" />
