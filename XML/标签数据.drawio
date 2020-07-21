@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-07-21T07:49:41.104Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="mwqcybBq0Ct4fXZGxwvp" version="13.0.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-21T07:52:59.276Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="IXM39rTZOD7kSPvvbZOU" version="13.0.9" type="github">
   <diagram id="A91LpBzX5Wgsc4IaKshx" name="Page-1">
     <mxGraphModel dx="925" dy="512" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -175,8 +175,8 @@
         <mxCell id="iZUuwFrf2KAGskIMmz3N-25" value="elastic search" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="115" y="1690" width="90" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="iZUuwFrf2KAGskIMmz3N-27" value="最后一步是go 离线任务，前面的 在 hera 中运行" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="265" y="1780" width="270" height="20" as="geometry" />
+        <mxCell id="iZUuwFrf2KAGskIMmz3N-27" value="最后一步是go 离线任务，suggest-05 上&amp;nbsp;/data/crontab/suggest/start_suggest_task.sh&lt;br&gt;前面的 在 hera 中运行， 任务名：app_search_keyword_year_week_p_day" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="1775" width="470" height="30" as="geometry" />
         </mxCell>
         <mxCell id="iZUuwFrf2KAGskIMmz3N-28" value="在线流程：" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="30" y="1850" width="80" height="20" as="geometry" />
