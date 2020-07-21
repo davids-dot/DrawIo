@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-07-21T07:13:04.440Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="mLdZA8i1If0J4ZWVozQL" version="13.0.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-21T07:48:51.649Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="JslPSoGkOGmpMuAO56GV" version="13.0.9" type="github">
   <diagram id="A91LpBzX5Wgsc4IaKshx" name="Page-1">
     <mxGraphModel dx="925" dy="512" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -174,6 +174,66 @@
         </mxCell>
         <mxCell id="iZUuwFrf2KAGskIMmz3N-27" value="最后一步是go 离线任务，前面的 在 hera 中运行" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="265" y="1780" width="270" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="iZUuwFrf2KAGskIMmz3N-28" value="在线流程：" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1850" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="iZUuwFrf2KAGskIMmz3N-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="161.5" y="1922" as="sourcePoint" />
+            <mxPoint x="161.5" y="2002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iZUuwFrf2KAGskIMmz3N-30" value="es 的一个提示词" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1892" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iZUuwFrf2KAGskIMmz3N-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iZUuwFrf2KAGskIMmz3N-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="282" y="2042" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iZUuwFrf2KAGskIMmz3N-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iZUuwFrf2KAGskIMmz3N-33" target="iZUuwFrf2KAGskIMmz3N-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iZUuwFrf2KAGskIMmz3N-33" value="是品牌词" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="122" y="2002" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iZUuwFrf2KAGskIMmz3N-36" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="233" y="2024" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="iZUuwFrf2KAGskIMmz3N-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iZUuwFrf2KAGskIMmz3N-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="2202" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iZUuwFrf2KAGskIMmz3N-38" value="从 redis 中拿品牌或筛选项" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="2012" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iZUuwFrf2KAGskIMmz3N-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iZUuwFrf2KAGskIMmz3N-39" target="iZUuwFrf2KAGskIMmz3N-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iZUuwFrf2KAGskIMmz3N-39" value="从redis 拿品类词" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="102" y="2112" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iZUuwFrf2KAGskIMmz3N-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iZUuwFrf2KAGskIMmz3N-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="2222" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iZUuwFrf2KAGskIMmz3N-41" value="补充上 es 里的标签词" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="322" y="2202" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iZUuwFrf2KAGskIMmz3N-42" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="2082" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="iZUuwFrf2KAGskIMmz3N-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iZUuwFrf2KAGskIMmz3N-46" target="iZUuwFrf2KAGskIMmz3N-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iZUuwFrf2KAGskIMmz3N-46" value="取前3个" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="2201" width="102" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="iZUuwFrf2KAGskIMmz3N-47" value="返回前端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="486" y="2290" width="110" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
