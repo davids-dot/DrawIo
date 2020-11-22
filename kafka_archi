@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-22T09:23:15.972Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="fM9b5vrSwMlIamHo5N9g" version="13.8.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-22T09:25:20.558Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="vd9-9tc0tV1rttJeFCAz" version="13.8.8" type="github">
   <diagram id="pD1Q9mKj1Cf1eZdgf0Q-" name="Page-1">
     <mxGraphModel dx="925" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -98,6 +98,16 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="410" y="300" as="sourcePoint" />
             <mxPoint x="460" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KpeOD3erERrv41tZjMwm-40" value="zookeeper" style="ellipse;whiteSpace=wrap;html=1;fontSize=13;align=left;" vertex="1" parent="1">
+          <mxGeometry x="150" y="505" width="130" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="KpeOD3erERrv41tZjMwm-41" value="register" style="endArrow=classic;html=1;fontSize=13;exitX=0.076;exitY=1.008;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="KpeOD3erERrv41tZjMwm-7" target="KpeOD3erERrv41tZjMwm-40">
+          <mxGeometry x="0.1374" y="-24" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="302.5" y="530" as="sourcePoint" />
+            <mxPoint x="352.5" y="480" as="targetPoint" />
+            <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
