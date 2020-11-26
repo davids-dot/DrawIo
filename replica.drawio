@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-26T15:32:29.467Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="m2tcxuwTtgfkIz54IbNr" version="13.8.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-26T15:45:04.672Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="IDpH1fMfJrVn0StxsSP4" version="13.8.8" type="github">
   <diagram id="IerF1X1bEQ-JxPGX92x0" name="Page-1">
     <mxGraphModel dx="999" dy="512" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -129,11 +129,11 @@
         <mxCell id="vK5Jy0w-jDRxXVp1QJg0-43" value="xxxxxxxxxx.timeindex 文件" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=19;" vertex="1" parent="1">
           <mxGeometry x="253" y="750" width="240" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="vK5Jy0w-jDRxXVp1QJg0-45" value="yyyyy - xxxxxxxxxx 偏移量的消息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=19;" vertex="1" parent="1">
-          <mxGeometry x="555" y="665" width="290" height="30" as="geometry" />
+        <mxCell id="vK5Jy0w-jDRxXVp1QJg0-45" value="&amp;nbsp;xxxxxxxxxx+1&amp;nbsp; 到 yyyyyyyyy 偏移量的消息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="570" y="665" width="380" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vK5Jy0w-jDRxXVp1QJg0-46" value="log 中第n 条消息及其在段中位置" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=19;" vertex="1" parent="1">
-          <mxGeometry x="555" y="695" width="290" height="30" as="geometry" />
+          <mxGeometry x="580" y="695" width="290" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
