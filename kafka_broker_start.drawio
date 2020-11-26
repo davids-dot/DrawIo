@@ -1,1 +1,154 @@
-<mxfile host="app.diagrams.net" modified="2020-11-26T00:52:04.933Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" version="13.8.8" etag="l-Dp-pB-zSMtgoLbO48c" type="github"><diagram id="QfvP4DOxKt7_Ded9RQVd">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-11-26T12:13:20.865Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="ppBVYz6kfESlCH4cU4_U" version="13.8.8" type="github">
+  <diagram id="QfvP4DOxKt7_Ded9RQVd" name="Page-1">
+    <mxGraphModel dx="925" dy="457" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Ba8Tc-JvGPcGH1VW4WcB-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ba8Tc-JvGPcGH1VW4WcB-1" target="Ba8Tc-JvGPcGH1VW4WcB-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ba8Tc-JvGPcGH1VW4WcB-1" value="broker1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="120" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ba8Tc-JvGPcGH1VW4WcB-2" value="zookeeper" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="120" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ba8Tc-JvGPcGH1VW4WcB-4" value="创建controller节点" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="195" y="120" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ba8Tc-JvGPcGH1VW4WcB-8" value="" style="endArrow=classic;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ba8Tc-JvGPcGH1VW4WcB-2" target="Ba8Tc-JvGPcGH1VW4WcB-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="290" as="sourcePoint" />
+            <mxPoint x="440" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ba8Tc-JvGPcGH1VW4WcB-9" value="创建成功，成为controller" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="176" y="150" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ba8Tc-JvGPcGH1VW4WcB-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ba8Tc-JvGPcGH1VW4WcB-10" target="Ba8Tc-JvGPcGH1VW4WcB-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ba8Tc-JvGPcGH1VW4WcB-10" value="broker2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="120" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ba8Tc-JvGPcGH1VW4WcB-12" value="创建controller" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="110" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ba8Tc-JvGPcGH1VW4WcB-14" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ba8Tc-JvGPcGH1VW4WcB-2" target="Ba8Tc-JvGPcGH1VW4WcB-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="290" as="sourcePoint" />
+            <mxPoint x="440" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ba8Tc-JvGPcGH1VW4WcB-15" value="失败,监听controller 节点" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="150" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ba8Tc-JvGPcGH1VW4WcB-16" value="副本选主" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeWidth=12;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="70" y="470" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ba8Tc-JvGPcGH1VW4WcB-17" value="controller 宕机" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeWidth=12;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="40" y="260" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ba8Tc-JvGPcGH1VW4WcB-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ba8Tc-JvGPcGH1VW4WcB-19" target="Ba8Tc-JvGPcGH1VW4WcB-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ba8Tc-JvGPcGH1VW4WcB-19" value="broker2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="310" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ba8Tc-JvGPcGH1VW4WcB-20" value="zookeeper" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="310" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ba8Tc-JvGPcGH1VW4WcB-21" value="创建controller节点" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="195" y="310" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ba8Tc-JvGPcGH1VW4WcB-22" value="" style="endArrow=classic;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ba8Tc-JvGPcGH1VW4WcB-20" target="Ba8Tc-JvGPcGH1VW4WcB-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="480" as="sourcePoint" />
+            <mxPoint x="440" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ba8Tc-JvGPcGH1VW4WcB-23" value="创建成功，成为新controller" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="171" y="340" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ba8Tc-JvGPcGH1VW4WcB-24" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ba8Tc-JvGPcGH1VW4WcB-25" target="Ba8Tc-JvGPcGH1VW4WcB-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ba8Tc-JvGPcGH1VW4WcB-25" value="broker3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="410" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ba8Tc-JvGPcGH1VW4WcB-26" value="创建controller" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="300" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ba8Tc-JvGPcGH1VW4WcB-27" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ba8Tc-JvGPcGH1VW4WcB-20" target="Ba8Tc-JvGPcGH1VW4WcB-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="480" as="sourcePoint" />
+            <mxPoint x="440" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ba8Tc-JvGPcGH1VW4WcB-28" value="失败,监听controller 节点" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="340" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ba8Tc-JvGPcGH1VW4WcB-32" value="" style="endArrow=classic;html=1;fontSize=18;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="Ba8Tc-JvGPcGH1VW4WcB-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="750" y="430" as="sourcePoint" />
+            <mxPoint x="730" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ba8Tc-JvGPcGH1VW4WcB-33" value="收到原controller消息，ephoch 小，忽略" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="575" y="410" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ba8Tc-JvGPcGH1VW4WcB-35" value="启动" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeWidth=12;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="85" y="85" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ba8Tc-JvGPcGH1VW4WcB-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=8;" edge="1" parent="1" source="Ba8Tc-JvGPcGH1VW4WcB-36" target="Ba8Tc-JvGPcGH1VW4WcB-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ba8Tc-JvGPcGH1VW4WcB-39" value="监听brokers,发现有节点消失&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;" vertex="1" connectable="0" parent="Ba8Tc-JvGPcGH1VW4WcB-38">
+          <mxGeometry x="-0.1039" y="3" relative="1" as="geometry">
+            <mxPoint x="-5" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ba8Tc-JvGPcGH1VW4WcB-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=8;fontColor=#000000;" edge="1" parent="1" source="Ba8Tc-JvGPcGH1VW4WcB-36" target="Ba8Tc-JvGPcGH1VW4WcB-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ba8Tc-JvGPcGH1VW4WcB-36" value="broker2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="520" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ba8Tc-JvGPcGH1VW4WcB-37" value="zookeeper" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="520" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ba8Tc-JvGPcGH1VW4WcB-47" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=8;fontColor=#000000;" edge="1" parent="1" source="Ba8Tc-JvGPcGH1VW4WcB-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ba8Tc-JvGPcGH1VW4WcB-48" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=8;fontColor=#000000;" edge="1" parent="1" source="Ba8Tc-JvGPcGH1VW4WcB-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ba8Tc-JvGPcGH1VW4WcB-41" value="从其他副本里选择一个" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="95" y="610" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ba8Tc-JvGPcGH1VW4WcB-43" value="broker" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="355" y="585" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ba8Tc-JvGPcGH1VW4WcB-44" value="broker" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="355" y="630" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ba8Tc-JvGPcGH1VW4WcB-45" value="broker" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="355" y="680" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ba8Tc-JvGPcGH1VW4WcB-46" value="" style="endArrow=classic;html=1;fontSize=8;fontColor=#000000;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" target="Ba8Tc-JvGPcGH1VW4WcB-43">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="640" as="sourcePoint" />
+            <mxPoint x="220" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ba8Tc-JvGPcGH1VW4WcB-49" value="发送选主结果给各broker" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="176" y="595" width="110" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
