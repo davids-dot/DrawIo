@@ -1,1 +1,55 @@
-<mxfile host="app.diagrams.net" modified="2021-05-18T01:14:10.336Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" version="14.6.13" etag="kn_saBCXWtz4v5yaoth3" type="github"><diagram id="iVH8FTCDCLbqT_Cor-RQ">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-05-18T03:52:53.793Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="AvOegmXJteSah2gCPotx" version="14.6.13" type="github">
+  <diagram id="iVH8FTCDCLbqT_Cor-RQ" name="Page-1">
+    <mxGraphModel dx="925" dy="512" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9R6sDFzfZ8e4BJgPEdQP-1" value="&lt;font style=&quot;font-size: 22px&quot;&gt;泛化词数据流程&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=7;" vertex="1" parent="1">
+          <mxGeometry x="300" y="40" width="196" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9R6sDFzfZ8e4BJgPEdQP-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9R6sDFzfZ8e4BJgPEdQP-2" target="9R6sDFzfZ8e4BJgPEdQP-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9R6sDFzfZ8e4BJgPEdQP-2" value="so-searchword-job 中的任务&lt;br&gt;Top300ScoreForGeneralizeWord" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="135" y="210" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9R6sDFzfZ8e4BJgPEdQP-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9R6sDFzfZ8e4BJgPEdQP-3" target="9R6sDFzfZ8e4BJgPEdQP-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9R6sDFzfZ8e4BJgPEdQP-3" value="hive 表 tmp.so_search_word_all_words_in_last_3_months" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="110" width="440" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9R6sDFzfZ8e4BJgPEdQP-5" value="每个词算出相关的top300 热词" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="345" y="220" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9R6sDFzfZ8e4BJgPEdQP-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9R6sDFzfZ8e4BJgPEdQP-6" target="9R6sDFzfZ8e4BJgPEdQP-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9R6sDFzfZ8e4BJgPEdQP-6" value="hive 表 tmp.so_search_word_300_hot_words_score_for_generalize_word" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="45" y="320" width="390" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9R6sDFzfZ8e4BJgPEdQP-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9R6sDFzfZ8e4BJgPEdQP-8" target="9R6sDFzfZ8e4BJgPEdQP-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9R6sDFzfZ8e4BJgPEdQP-8" value="每个词取分数靠前的15个top300 词" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="410" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9R6sDFzfZ8e4BJgPEdQP-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9R6sDFzfZ8e4BJgPEdQP-10" target="9R6sDFzfZ8e4BJgPEdQP-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9R6sDFzfZ8e4BJgPEdQP-10" value="tmp.t_search_generalize_word_topwords" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="95" y="500" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9R6sDFzfZ8e4BJgPEdQP-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9R6sDFzfZ8e4BJgPEdQP-12" target="9R6sDFzfZ8e4BJgPEdQP-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9R6sDFzfZ8e4BJgPEdQP-12" value="suggest-tag 中的&amp;nbsp;HotWordWriter&lt;br&gt;通过调用erp 接口写入数据" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="135" y="570" width="210" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="9R6sDFzfZ8e4BJgPEdQP-13" value="mysql&amp;nbsp; fomsDB&amp;nbsp; 的&amp;nbsp;&lt;span style=&quot;font-size: medium&quot;&gt;t_keyword_generalize_set&amp;nbsp; 表在线服务使用&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="25" y="680" width="430" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
